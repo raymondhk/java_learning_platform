@@ -9,18 +9,19 @@
 <title>Learning Platform</title>
 </head>
 <body>
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 	<div class="container">
 		<nav class="navbar navbar-inverse">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
-		      <a class="navbar-brand" href="#">Fortran</a>
+		      <a class="navbar-brand" href="/">Fortran</a>
 		    </div>
 		    <ul class="nav navbar-nav">
-		      <li class="active"><a href="#">Setup</a></li>
-		      <li><a href="#">Forms</a></li>
-		      <li><a href="#">Cards</a></li>
-		      <li><a href="#">Advanced</a></li>
-		      <li><a href="#">Binary</a></li>
+		      <li><a href="/m/38/0553/0733/">Setup</a></li>
+		      <li><a href="/m/38/0483/0345/">Forms</a></li>
+		      <li><a href="/m/38/0553/0342/">Cards</a></li>
+		      <li><a href="/m/26/0553/0348/">Advanced</a></li>
+		      <li><a href="/m/38/0483/2342/">Binary</a></li>
 		    </ul>
 		  </div>
 		</nav>
@@ -28,6 +29,7 @@
 			<div class="col-md-2"></div>
 			<div class="col-md-8">
 				<div class="box">
+					<p><c:out value="${goal}"/></p>
 				</div>
 			</div>
 			<div class="col-md-2"></div>
